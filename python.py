@@ -7,9 +7,9 @@ class Usuario:
         self.usuario = usuario
         self.contraseña = contraseña
     
-    def formatter(self):
+    def name(self):
         return f"Para el usuario {self.usuario} la contraseña es: {self.contraseña}"
     
-usuario_uno = Usuario("Pepe", "pepe0123")
+usuario_uno = Usuario('Pepe', 'pepe0123')
 
-print(usuario_uno.formatter)
+print(usuario_uno.name())
